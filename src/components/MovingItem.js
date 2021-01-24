@@ -14,7 +14,7 @@ class MovingItem extends Component {
 
         this.cellStyle = {
             borderBottom: 'none',
-            fontSize : '60%'
+            fontSize: '75%'
         }
 
         this.buttonCellStyle = {
@@ -44,20 +44,34 @@ class MovingItem extends Component {
 
         return (
 
-            <TableRow>
-                <TableCell style={this.cellStyle}>{this.props.index}</TableCell>
-                <TableCell style={this.cellStyle}>{this.props.date}</TableCell>
-                <TableCell style={this.cellStyle}>{this.props.name}</TableCell>
-                <TableCell style={this.cellStyle}>{this.props.address}</TableCell>
-                <TableCell style={this.buttonCellStyle}>
-                    <Fab onClick={this.update} size={'small'} color="secondary" style={{marginRight: "13px"}}>
-                        <EditIcon />
-                    </Fab>
-                    <Fab onClick={this.delete} size={"small"} color="secondary">
-                        <DeleteIcon />
-                    </Fab>
-                </TableCell>
-            </TableRow >
+            <
+            TableRow >
+            <
+            TableCell style = { this.cellStyle } > { this.props.index } < /TableCell> <
+            TableCell style = { this.cellStyle } > { this.props.date } < /TableCell> <
+            TableCell style = { this.cellStyle } > { this.props.name } < /TableCell> <
+            TableCell style = { this.cellStyle } > { this.props.address } < /TableCell> <
+            TableCell style = { this.buttonCellStyle } >
+            <
+            Fab onClick = { this.update }
+            size = { 'small' }
+            color = "secondary"
+            style = {
+                { marginRight: "13px" }
+            } >
+            <
+            EditIcon / >
+            <
+            /Fab> <
+            Fab onClick = { this.delete }
+            size = { "small" }
+            color = "secondary" >
+            <
+            DeleteIcon / >
+            <
+            /Fab> < /
+            TableCell > <
+            /TableRow >
         )
     }
 
