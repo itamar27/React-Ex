@@ -1,0 +1,31 @@
+[{
+        "id": 1,
+        "date": "2021-01-01",
+        "name": "John Doe",
+        "city": "Tel Aviv"
+    },
+    {
+        "id": 5,
+        "date": "2021-01-05",
+        "name": "Itamar Yarden",
+        "city": "Haifa"
+    },
+    {
+        "id": 6,
+        "date": "2021-01-06",
+        "name": "Barak Daniel",
+        "city": "Jerusalem"
+    },
+    {
+        "id": 10,
+        "date": "2021-01-05",
+        "name": "Mich Stern",
+        "city": "Eilat"
+    },
+    {
+        "id": 11,
+        "date": "2021-01-06",
+        "name": "Amit Wolf",
+        "city": "Ramat Gan"
+    }
+]

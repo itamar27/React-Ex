@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: block;
+    width: 80%;
+    height: 95%;
+    background-image: url("./style/Scene.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.myContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 73%;
+    height: 85%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.movingTable {
+    margin-left: 0%;
+    margin-top: 5%;
+    padding: 1%;
+    background: white;
+    border-radius: 2%;
+    height: 80%;
+}
+
+.movingTable::-webkit-scrollbar {
+    width: 5px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.movingForm {
+    margin: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+}
+
+.movingForm input {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    width: 90%;
+    height: 10%;
+    border: #ee4d47 solid 2px;
+    color: #6d6d6d;
+    border-radius: 5px;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.myTruck {
+    background-image: url("./style/mobel.png");
+    display: block;
+    height: 45%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
